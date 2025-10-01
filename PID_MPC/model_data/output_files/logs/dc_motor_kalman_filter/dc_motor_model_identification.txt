@@ -1,0 +1,59 @@
+Train tau = 0.13597364 s
+Test tau = 0.14650658 s
+Estimate model parameters of motor 1
+	Opimization/estimation method: lsqnonlin
+	Algorithm: trust-region-reflective
+	Iterations: 44
+	Func-count: 406
+	Squared norm of the residual: 15.012167
+	Estimated parameters:
+		k_p = 1.2543496 V*s/rad (tunable)
+		J = 1.3262571e-06 kg*m^2 (tunable)
+		b = 2.56107e-05 N*m*s/rad (tunable)
+		T_0 = 0.0082467118 N*m (tunable)
+		L_a = 0.0089 H (fixed)
+		R_a = 5.95 Ohm (fixed)
+		k_t = 0.0514 N*m/A (fixed)
+		k_e = 0.0514 V*s/rad (fixed)
+	Train data:
+		Squared norm of the residual: 15.0122
+	Test data:
+		Squared norm of the residual: 10.7193
+Estimate model parameters of motor 2
+	Opimization/estimation method: lsqnonlin
+	Algorithm: trust-region-reflective
+	Iterations: 6
+	Func-count: 64
+	Squared norm of the residual: 13.197757
+	Estimated parameters:
+		k_p = 1.2203558 V*s/rad (tunable)
+		J = 1.1671543e-06 kg*m^2 (tunable)
+		b = 1.8381794e-05 N*m*s/rad (tunable)
+		T_0 = 0.0077142278 N*m (tunable)
+		L_a = 0.0089 H (fixed)
+		R_a = 5.95 Ohm (fixed)
+		k_t = 0.0514 N*m/A (fixed)
+		k_e = 0.0514 V*s/rad (fixed)
+	Train data:
+		Squared norm of the residual: 13.1978
+	Test data:
+		Squared norm of the residual: 7.56515
+Estimate model parameters of motor 3
+	Opimization/estimation method: lsqnonlin
+	Algorithm: trust-region-reflective
+	Iterations: 3
+	Func-count: 36
+	Squared norm of the residual: 13.731443
+	Estimated parameters:
+		k_p = 1.2231808 V*s/rad (tunable)
+		J = 1.2626015e-06 kg*m^2 (tunable)
+		b = 2.1569923e-05 N*m*s/rad (tunable)
+		T_0 = 0.0081146725 N*m (tunable)
+		L_a = 0.0089 H (fixed)
+		R_a = 5.95 Ohm (fixed)
+		k_t = 0.0514 N*m/A (fixed)
+		k_e = 0.0514 V*s/rad (fixed)
+	Train data:
+		Squared norm of the residual: 13.7314
+	Test data:
+		Squared norm of the residual: 9.35552
